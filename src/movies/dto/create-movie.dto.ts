@@ -3,7 +3,6 @@ import {
   ApiModelProperty,
   ApiModelPropertyOptional,
 } from '@nestjs/swagger/dist/decorators/api-model-property.decorator';
-import { Type } from 'class-transformer';
 
 export class CreateMovieDto {
   @ApiModelProperty()
